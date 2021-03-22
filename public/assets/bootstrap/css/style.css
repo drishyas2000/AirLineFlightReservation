@@ -1,0 +1,110 @@
+
+.bgimg
+{
+	justify-content: center;
+    align-items: center;
+	position: relative;
+	background: url(../../bootstrap/images/img1.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 1000px;
+}
+.bgcolor{
+	background-color: rgb(96, 158, 212);
+	height:1.5%;
+	width:15%;
+	border-radius: 10px 10px;
+}
+.bgimg
+{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../bootstrap/images/img1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+.cardimg{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../bootstrap/images/airports1.jpg)no-repeat;
+    background-size: cover;
+    height:200px;
+    width:100%;
+    background-position: center;
+
+}.cardimg2{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../bootstrap/images/airports2.jpg)no-repeat;
+    background-size: cover;
+    height:200px;
+    width:100%;
+    background-position: center;
+
+}.cardimg3{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../bootstrap/images/airports3.jpg)no-repeat;
+    background-size: cover;
+    height:200px;
+    width:100%;
+    background-position: center;
+
+}.cardimg4{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../bootstrap/images/airports4.jpg)no-repeat;
+    background-size: cover;
+    height:200px;
+    width:100%;
+    background-position: center;
+}
+.admin{
+    background: url(../../bootstrap/images/img.jpg)no-repeat;
+    background-size: cover;
+}
+.menubar{
+    background-color:rgb(211,211,211);
+    text-align:center;
+}
+.menubar ul{
+    list-style:none;
+    display:inline-flex;
+    padding:10px;
+}
+.menubar ul li{
+    padding:15px;
+}
+
+.menubar ul li a{
+        text-decoration:none;
+        color:white;
+        padding:10px;
+        }
+.menubar ul li a:hover{
+    background-color:rgb(66, 135, 145);
+    border-radius:10px;
+}
+.submenu{
+    display:none;
+}
+.menubar ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    background-color:rgb(120, 120, 129);
+    border-radius:10px;
+    margin-right:25px;
+}
+.submenu ul{
+    display:block;
+}
+.submenu ul li{
+    border-bottom:2px solid blanchedalmond;
+}
+  

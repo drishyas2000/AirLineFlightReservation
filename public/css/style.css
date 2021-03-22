@@ -1,0 +1,44 @@
+.top{
+	background-image: url("../img/top-pattern-150.png");
+}
+.top1{
+	background-image: url("../img/header-pattern-150.png");
+
+}
+.banner{
+	background-image: url("../img/34.jpg");
+	background-size: cover;
+
+}
+.slide{
+	background-color: rgba(0,0,0,0.6);
+}
+.back-item{
+	background-color: rgba(0,0,0,0.4);
+
+}
+body{
+	overflow-x: hidden;
+}
+.top{
+	background-image: url("../img/top-pattern-150.png");
+}
+.top1{
+	background-image: url("../img/header-pattern-150.png");
+
+}
+.banner{
+	background-image: url("../img/intro-background.jpg");
+	background-size: cover;
+
+}
+.slide{
+	background-color: rgba(0,0,0,0.6);
+}
+.back-item{
+	background-color: rgba(0,0,0,0.4);
+
+}
+body{
+	overflow-x: hidden;
+}

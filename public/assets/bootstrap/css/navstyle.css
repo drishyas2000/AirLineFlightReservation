@@ -1,0 +1,43 @@
+.admin{
+    background: url(../../bootstrap/images/img.jpg)no-repeat;
+    background-size: cover;
+}
+.menubar{
+    background-color:lightskyblue;
+    text-align:center;
+}
+.menubar ul{
+    list-style:none;
+    display:inline-flex;
+    padding:10px;
+}
+.menubar ul li{
+    padding:10px;
+}
+
+.menubar ul li a{
+        text-decoration:none;
+        color:white;
+        padding:10px;
+        }
+.menubar ul li a:hover{
+    background-color:green;
+    border-radius:10px;
+    transition: 2s;
+}
+.submenu{
+    display:none;
+}
+.menubar ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    background-color:rgb(120, 120, 129);
+    border-radius:10px;
+    margin-right:25px;
+}
+.submenu ul{
+    display:block;
+}
+.submenu ul li{
+    border-bottom:2px solid blanchedalmond;
+}
